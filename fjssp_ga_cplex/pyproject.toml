@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fjssp-ga-cplex"
+version = "0.1.0"
+description = "Flexible Job Shop Scheduling (FJSSP) with Genetic Algorithm and CPLEX (docplex)."
+readme = "README.md"
+requires-python = ">=3.7"
+license = { file = "LICENSE" }
+
+authors = [
+  { name = "Trung Le", email = "trung.iem.iu@gmail.com" }
+]
+
+keywords = ["Scheduling", "FJSSP", "Job Shop", "Genetic Algorithm", "CPLEX", "docplex", "Optimization"]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Mathematics"
+]
+
+dependencies = [
+  "docplex>=2.25",
+  "pandas>=1.1",
+  "openpyxl>=3.0",
+  "matplotlib>=3.3",
+  "numpy>=1.19",
+]
+
+[project.scripts]
+runga = "scripts.run_ga:main"
+runcplex = "scripts.run_cplex:main"
+
+[tool.setuptools.packages.find]
+where = ["."]

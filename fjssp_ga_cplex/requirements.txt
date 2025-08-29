@@ -1,0 +1,7 @@
+docplex>=2.25
+pandas>=1.1
+openpyxl>=3.0
+matplotlib>=3.3
+numpy>=1.19
+
+# "C:Path\to\CPLEX_Studio129\cplex\python\3.7\x64_win64

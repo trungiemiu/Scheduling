@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "fjssp_ga_cplex: Flexible Job Shop Scheduling with GA and CPLEX"
+version: "0.1.0"
+date-released: "2025-08-29"
+
+authors:
+  - family-names: "Le"
+    given-names: "Trung"
+    email: "trung.iem.iu@gmail.com"
+
+license: "MIT"
+repository-code: "https://github.com/trungiemiu/Scheduling/fjssp_ga_cplex"
+keywords:
+  - FJSSP
+  - Scheduling
+  - Genetic Algorithm
+  - CPLEX
+  - docplex
+  - Optimization
+
+abstract: >
+  This repository provides a Python implementation of the Flexible Job Shop Scheduling Problem (FJSSP),
+  featuring both a Genetic Algorithm (GA) and a CPLEX/DOcplex MIP formulation. It includes visualization
+  tools for machine-based Gantt charts.
