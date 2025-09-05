@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+title: "Job-Splitting FJSSP with Hybrid GA and CPLEX"
+version: "1.0.0"
+date-released: "2025-09-05"
+repository-code: "https://github.com/trungiemiu/Scheduling/tree/main/jobsplit_fjssp_hga_cplex"
+type: software
+authors:
+  - family-names: "Le"
+    given-names: "Trung"
+identifiers:
+  - type: url
+    value: "https://github.com/trungiemiu/Scheduling/tree/main/jobsplit_fjssp_hga_cplex"
+keywords:
+  - flexible job shop
+  - job splitting
+  - FJSSP
+  - genetic algorithm
+  - hybrid GA
+  - CPLEX
+  - docplex
+  - scheduling
+abstract: >
+  Implementation of a Hybrid Genetic Algorithm (HGA) and a docplex-based
+  MIP model (IBM CPLEX) for the Flexible Job-Shop Scheduling Problem with Job
+  Splitting (FJSSP-JS). The GA enforces machine eligibility and sub-lot
+  multiples of s, while the CPLEX model follows a rigorous mathematical
+  formulation supporting setup times and minimum sub-lot constraints.
+preferred-citation:
+  type: software
+  title: "Job-Splitting FJSSP with Hybrid GA and CPLEX"
+  authors:
+    - family-names: "Le"
+      given-names: "Trung"
+  repository-code: "https://github.com/trungiemiu/Scheduling/tree/main/jobsplit_fjssp_hga_cplex"
+  year: 2025
+  url: "https://github.com/trungiemiu/Scheduling/tree/main/jobsplit_fjssp_hga_cplex"
