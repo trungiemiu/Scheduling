@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Scheduling Repository: Solvers for Flexible Job Shop Scheduling"
+message: "If you use this repository, please cite it as below."
+type: software
+authors:
+  - family-names: Le
+    given-names: Trung
+repository-code: "https://github.com/trungiemiu/Scheduling"
+license: MIT
+version: "0.1.0"
+date-released: 2025-09-26
+keywords:
+  - scheduling
+  - optimization
+  - job shop scheduling
+  - flexible job shop scheduling
+  - simulated annealing
+  - tabu search
+  - CPLEX
+  - Python
